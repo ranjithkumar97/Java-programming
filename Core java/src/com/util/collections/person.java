@@ -16,8 +16,8 @@ public class person {
 	public void setName(String name) {
 		this.name = name;
 	}
+	 
 	
-	
-	
+	  
 	
 }
