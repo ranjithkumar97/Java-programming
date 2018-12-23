@@ -11,11 +11,10 @@ stmt.setInt(1,101);//1 specifies the first parameter in the query
 stmt.setString(2,"Ratan");  
  stmt.setString(3,"kumar"); 
 System.out.println(stmt.executeUpdate());  
-
 con.close();  
 }
 catch(Exception e)
-{
+{ 
 	System.out.println(e);
 }
 }
